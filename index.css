@@ -1,0 +1,95 @@
+body {
+    background-color: skyblue;
+}
+header > h1{
+    color: aliceblue;
+    font: 70px bold solid sans-serif;
+    text-align: center;
+    border: 22px solid tomato;
+}
+p {
+    color: aliceblue;
+    width: 50%;
+    font-size: 20px;
+}
+.box {
+    width: 50%;
+    height: auto;
+    background-color: tomato;
+    padding: 5%;
+    box-sizing: border-box;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid lightgreen;
+    margin: 10px;
+    background-color: lightseagreen;
+}
+
+figure.hero {
+    float: right;
+    width: 35%;
+    height: 100%;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0px;
+}
+blockquote {
+    margin: 10px 0;
+    color: black;
+    font-size: 1.2em;
+    line-height: 2.4em;
+    border-left: 10px solid #f0f0f0;
+    padding-left: 10px;
+    background-color: rgba(90,90,90,.5);
+}
+footer {
+    text-align: center;
+    font: 20px bold solid sans-serif;
+    position: relative;
+    bottom: -1;
+    width: 100%;
+    height: 25px;
+    background-color: lightpink;
+}
+#inline * {
+    position: center;
+    font: 30px bold solid sans-serif;
+    width: 100%;
+    height: 10%;
+}
+.colorr {
+    float: right;
+    position: relative;
+    top: -200px;
+    left: -225px;
+    width: auto; 
+    border: 10px solid white;
+}
+.field{
+    border: 8px solid white;
+    box-sizing: border-box; 
+    display: inline-block;
+    width: auto;
+    padding: 5px;
+}
+.radio{
+    float: right;   
+}
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: grey;
+    font-weight: bold;
+    display: inline-block;
+    width: auto;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+button:hover {
+    color: black;
+    font-size: 20px;
+}
